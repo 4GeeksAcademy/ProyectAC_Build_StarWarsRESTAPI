@@ -1,0 +1,28 @@
+<!-- PUNTOS A SEGUIR -->
+
+<!-- 
+1_Definir los modelos para User, Character, Planet, Favorite, Comment (como complemento) en el archivo models.py usando SQLAlchemy.
+        Al terminar usar los comandos para hacer las migraciones y actualizar la base de datos con esas migraciones
+
+2_Definir las clases para los usuarios, personajes, planetas, favoritos y comentarios.
+Desarrollar los endpoints en app.py:
+        Usuarios:
+            GET /users: Listar todos los usuarios.
+            POST /users: Crear un nuevo usuario.
+        Personajes:
+            GET /people: Listar todos los personajes.
+            GET /people/<int:people_id>: Obtener un personaje específico.
+        Planetas:
+            GET /planets: Listar todos los planetas.
+            GET /planets/<int:planet_id>: Obtener un planeta específico.
+        Favoritos:
+            POST /favorite/planet/<int:planet_id>: Añadir un planeta a favoritos.
+            POST /favorite/people/<int:people_id>: Añadir un personaje a favoritos.
+            DELETE /favorite/planet/<int:planet_id>: Eliminar un planeta de favoritos.
+            DELETE /favorite/people/<int:people_id>: Eliminar un personaje de favoritos.
+        Comentarios:
+            POST /comments: Crear un comentario.
+
+3_Registrar los modelos User, Character, Planet, Favorite, Comment en la interfaz de administración addmin.py
+4_Probar todo en Postman 
+-->
